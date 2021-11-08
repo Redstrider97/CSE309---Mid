@@ -1,0 +1,110 @@
+.sidenav {
+    padding-right: 1%;
+    padding-left: 1%;
+    height: 100%;
+    width: 14%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #07051a;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+.sidenav a {
+    padding: 6px 6px 6px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+  }
+  
+.sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+.main {
+    padding-top: 2%;
+    margin-left: 16%;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+.redstrider{
+    color: red;
+}
+.nameNav {
+    color: #f1f1f1;
+    text-align: center;
+}
+.top-cards {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin: auto;
+    display: flex;
+}
+.card {
+    margin: auto;
+}
+.bottom-cards {
+    padding-top: 5%;
+    margin: auto;
+    display: flex;
+}
+.main-education {
+    padding-top: 5%;
+    margin-left: 16%;
+    margin-right: 2%;
+  }
+/* .card-job {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+} */
+.row {
+    text-align: center;
+}
+.accordion-body {
+    background-color: cornflowerblue;
+}
+.accordion-header {
+    background-color: rgb(95, 136, 160);
+}
+.main-job {
+    padding-top: 5%;
+    margin-left: 16%;
+    margin-right: 2%;
+    margin-top: 6%;
+    padding-bottom: 4%;
+    background-color: rgba(141, 141, 211, 0.637);
+}
+.main-me {
+    margin-top: 2%;
+    padding-bottom: 3%;
+    margin-right: 2%;
+    margin-left: 16%;
+    background-color: #34495E;
+    margin-bottom: 2%;
+  }
+.card-body {
+    background-color: #BFC9CA;
+}
+.mb-3 {
+  margin-top: 5%;
+  margin-left: 9%;
+  margin-right: 11%;
+}
+.btn-light {
+  margin-left: 9%;
+  margin-right: 11%;
+}
+.col-4 {
+  padding: 2%;
+}
+.container {
+  margin-top: 10%;
+}
